@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context="com.example.anubhav.quizoid.Loginfs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:layout_weight="0.05"
+            android:background="@drawable/roundedbutton"
+            android:onClick="faculty"
+            android:text="Faculty Login"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:background="@drawable/roundedbutton"
+            android:onClick="student"
+            android:textSize="20sp"
+            android:text="Student Login" />
+    </LinearLayout>
+
+</FrameLayout>

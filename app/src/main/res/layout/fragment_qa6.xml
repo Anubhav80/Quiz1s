@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#827717"
+    android:layout_height="match_parent"
+    tools:context="com.example.anubhav.quizoid.qa6">
+
+    <LinearLayout
+        android:layout_weight="1"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qa6"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+
+            />
+
+        <LinearLayout
+            android:layout_weight="8"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioGroup
+                android:id="@+id/rg6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/q61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.3 m"
+                    android:textSize="30sp"/>
+                <RadioButton
+                    android:id="@+id/q62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.6 m"
+                    android:textSize="30sp"/>
+                <RadioButton
+                    android:id="@+id/q63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7.8 m"
+                    android:textSize="30sp"/>
+                <RadioButton
+                    android:id="@+id/q64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9.2 m"
+                    android:textSize="30sp"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:background="@drawable/roundedbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NEXT"
+                android:id="@+id/b6"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
